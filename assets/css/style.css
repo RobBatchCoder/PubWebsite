@@ -17,7 +17,9 @@
     color:#EFE7BC;
 }
 
+/*-----------------------Template-----------------------*/
 
+/*https://www.oxbobankside.co.uk/*/
 
 /*-----------------------Nav bar-----------------------*/
 
@@ -35,11 +37,17 @@
     background-color: #EFE7BC;
     padding: 0 2vw 0 5vw;
     height: 75px;
-
 }
 
+.navbar-collapse{
+    flex-grow: 0;
+}
 /*-----------------------Fonts-----------------------*/
 
 .navbar-brand{
     font-family: 'Roboto', sans-serif;
+}
+
+.navbar-collapse{
+    font-weight: 600;
 }

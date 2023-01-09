@@ -1,10 +1,45 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&family=Roboto+Condensed:wght@100,200,300,400,500,100,700&display=swap');
+
 
 /*-----------------------Palette-----------------------*/
 /*
-#361d32
-#543c52
-#f55951
-#edd2cb
-#edd2cb
+#E7F2F8 
+#74BDCB
+#FFA384
+#EFE7BC
 */
+
+.palette{
+    color:#E7F2F8;
+    color:#74BDCB;
+    color:#FFA384;
+    color:#EFE7BC;
+}
+
+
+
+/*-----------------------Nav bar-----------------------*/
+
+.navbar-brand{
+    color: #FFA384;
+    font-size: xxx-large;
+    text-transform: uppercase;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-style{
+    background-color: #EFE7BC;
+    padding: 0 2vw 0 5vw;
+    height: 75px;
+
+}
+
+/*-----------------------Fonts-----------------------*/
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+}
